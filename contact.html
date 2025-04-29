@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | CoreIT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo-container">
+      <img src="images/logo.png" alt="CoreIT Logo" class="logo">
+      <h1>CoreIT</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="technologies.html">Technologies</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" class="get-started">Get Started</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2>Get In Touch</h2>
+    <p class="section-subtext">We’d love to hear from you. Reach out to us for any queries or service requests.</p>
+
+    <div class="contact-grid">
+      <div class="contact-form">
+        <form onsubmit="showContactAlert(); return false;">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p><strong>Email:</strong> info@coreit.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Location:</strong> San Jose, California, USA</p>
+
+        <h3>Follow Us</h3>
+        <p>LinkedIn | Twitter | Facebook</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CoreIT. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
