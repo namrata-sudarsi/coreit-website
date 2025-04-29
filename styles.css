@@ -100,25 +100,7 @@
     width: 300px;
   }
   
-  /* Scroll Down Arrow */
-  .scroll-down {
-    text-align: center;
-    margin-top: -50px;
-  }
-  
-  .scroll-down img {
-    width: 40px;
-    animation: bounce 2s infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(10px);
-    }
-  }
+
   
   /* Services Section */
 .services-section {
